@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package bigramspamfilter;
+//package bigramspamfilter;
 
 import java.io.*;
 import java.util.HashMap;
@@ -33,10 +33,10 @@ public class BigramSpamFilter {
            String str;
            String line;
            FileReader fReader = null;
-           Vector<String> v = new Vector(2);
-           Iterator itV =  v.iterator();
+           Vector<String> v = new Vector<String>(2);
+           Iterator <String>itV =  v.iterator();
            HashMap<String, Integer> nGramTable= new HashMap<String, Integer>();
-           Iterator itH = null;
+           Iterator <String>itH = null;
            strs = new String[10];
            
            // Read the File
