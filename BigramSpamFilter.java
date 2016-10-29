@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-ipackage javaapplication1;
+package bigramspamfilter;
 
 import java.io.*;
 import java.util.HashMap;
@@ -14,7 +14,7 @@ import java.util.regex.Pattern;
  *
  * @author JoeV5
  */
-public class JavaApplication1 {
+public class BigramSpamFilter {
     private static String file;
     private static String[] strs;
 
