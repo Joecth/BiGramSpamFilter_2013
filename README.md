@@ -9,7 +9,7 @@ The probability in a document with k n-grams (and hence k+n-1 words) is defined 
 means number of occurrences of the n-gram.
 
 
-LOG as following:</br>
+LOG after execution shown as below:</br>
 ```
 ~/JavaWork/BigramSpamFilter (master ✘)✭ ᐅ java BigramSpamFilter
 repeated key is found! key : percent of
