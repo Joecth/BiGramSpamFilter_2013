@@ -8,8 +8,13 @@ The probability in a document with k n-grams (and hence k+n-1 words) is defined 
 <a href="https://www.codecogs.com/eqnedit.php?latex=P(w_{i&plus;1}\cdots&space;w_{i&plus;1})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(w_{i&plus;1}\cdots&space;w_{i&plus;1})" title="P(w_{i+1}\cdots w_{i+1})" /></a>
 means number of occurrences of the n-gram.
 
+Results of Bi-Gram probability in this sampledata show 
+* bi-gram probability: 1.06731
+* k: 157
 
-LOG after execution shown as below:</br>
+
+<div class="mermaid">
+#LOG after execution shown as below:</br>
 ```
 ~/JavaWork/BigramSpamFilter (master ✘)✭ ᐅ java BigramSpamFilter
 repeated key is found! key : percent of
